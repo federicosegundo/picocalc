@@ -1,6 +1,9 @@
 /*
  * pintpix.bas
  * fsr 2025
+ * this is a very simple image editor. No save is possible yet. No colours.
+ * Use cursors to move. Space to switch ink on/off
+ * press q to quit
  */
 
 x=100
@@ -17,7 +20,7 @@ Do
 
     Select Case d
         Case 113: Exit
-        Case 130: x=x-t
+        Case 130: x=x-t 
         Case 131: x=x+t
         Case 128: y=y-t
         Case 129: y=y+t
